@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placement Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2>Placement Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+  </header>
+
+  <nav>
+    <a href="#">Dashboard</a>
+    <a href="#">Jobs</a>
+    <a href="#">Applications</a>
+    <a href="#">Interviews</a>
+    <a href="#">Notifications</a>
+    <a href="#">Profile</a>
+  </nav>
+
+  <main>
+    <h1>Welcome, Student 👋</h1>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Applications</h3>
+        <p>24</p>
+      </div>
+
+      <div class="card">
+        <h3>Shortlisted</h3>
+        <p>8</p>
+      </div>
+
+      <div class="card">
+        <h3>Interviews</h3>
+        <p>5</p>
+      </div>
+
+      <div class="card">
+        <h3>Selected</h3>
+        <p>2</p>
+      </div>
+    </section>
+
+    <section class="jobs">
+      <h2>Recent Job Opportunities</h2>
+
+      <div class="job">
+        <h3>Frontend Developer</h3>
+        <p>Infosys | Bangalore | ₹8 LPA</p>
+        <button onclick="applyJob()">Apply Now</button>
+      </div>
+
+      <div class="job">
+        <h3>Software Engineer</h3>
+        <p>TCS | Chennai | ₹7 LPA</p>
+        <button onclick="applyJob()">Apply Now</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
